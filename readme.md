@@ -117,4 +117,25 @@ multi dimensional array = atleaet one array data within an array
 -ssh
    -bind laptop git
 
-   
+
+
+
+
+
+git init
+git remote add origin git@github.com:sah-pratiksha/mernstack.git
+git config --global user.email "sahpratiksha374@gmail.com"
+git config --global user.name "sah-pratiksha"
+git add .
+git commit -m "First Push"
+git status
+git push origin master
+
+
+ pull from git =  git clone url
+ url change = git remote set-url origin (use url)
+ ssh-keygen
+ cat /Users/wind/.ssh/id_234gfs.pub
+
+
+ cat ~/.ssh/id_rsa.pub

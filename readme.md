@@ -136,6 +136,36 @@ git push origin master
  url change = git remote set-url origin (use url)
  ssh-keygen
  cat /Users/wind/.ssh/id_234gfs.pub
+ 
+
+ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIK2A6I7/UEYXQRQDTb1o482lSJpDLqO36Ez10G87r9wL pratiksha@DESKTOP-STAQ6RA
 
 
- cat ~/.ssh/id_rsa.pub
+DTO = data transfer object
+422 for generic message
+
+
+
+const Joi = require("joi");
+const registerDataDTD = Joi.object(
+  {
+    name: joi.String()
+  }
+)
+
+
+const bodyValidator = () 
+  
+
+const.Joi = require("joi");
+const registerDataDTO = Joi.object ({
+    name: Joi.steing().main(2).max(50).required.message({
+        "string.empty": "Name should not be empty"
+    }),
+    email: Joi.string().email().required().message({
+        "string.empty": "email should not be empty"
+    }),
+    password: Joi.string().regex(/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d))
+}
+
+)
